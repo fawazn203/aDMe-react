@@ -1,0 +1,29 @@
+.App {
+  padding: 1rem;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  margin: .5rem;
+}
+.image img {
+  width: 12rem;
+}
+
+button {
+  border: 0;
+  background-color: teal;
+  min-height: 2.5rem;
+  color: #fff;
+  padding: 0 1rem;
+  cursor: pointer;
+  border-radius: .15rem;
+}
+
+.load-more-btn {
+  text-align: center;
+}
